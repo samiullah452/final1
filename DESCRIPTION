@@ -1,0 +1,42 @@
+Package: final
+Title: 'Twitter' Networks Analyser
+Version: 0.2
+Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
+Description: 'Twitter' networks analyser.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+	cli,
+	yaml,
+	httr,
+	purrr,
+	dplyr,
+	shiny,
+	tidyr,
+	tippy,
+	aforce,
+	scales,
+	rtweet,
+	crayon,
+	igraph,
+	aframer,
+	sigmajs,
+	shinyjs,
+	tidytext,
+	jsonlite,
+	reactrend,
+	tidygraph,
+	shinyjqui,
+	graphTweets,
+	shinythemes,
+	shinyparticles,
+	shinycustomloader
+Remotes: 
+	JohnCoene/aforce,
+	JohnCoene/sigmajs,
+	JohnCoene/aframer,
+	JohnCoene/reactrend,
+	JohnCoene/graphTweets,
+	dreamRs/shinyparticles

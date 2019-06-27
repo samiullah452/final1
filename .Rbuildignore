@@ -1,0 +1,13 @@
+^\.travis\.yml$
+^LICENSE\.md$
+^chirp\.Rproj$
+^\.Rproj\.user$
+_chirp\.yml
+www
+docker-compose.yml
+Dockerfile
+website
+.dockerignore
+.vscode
+docs
+test.R

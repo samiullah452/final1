@@ -1,0 +1,48 @@
+credentials:                              # twitter app credentials
+  consumer_key: null
+  consumer_secret: null
+  access_token: null
+  access_secret: null
+
+options:
+  min_tweets: 500                         # Minimum number of tweets one can fetch
+  max_tweets: 17000                       # Maximum number of tweets one can fetch
+
+style:
+  theme: paper                            # from: https://rstudio.github.io/shinythemes
+  font: Raleway                           # google font
+  font_family: "'Raleway', sans-serif"    # font family
+  sliders: 'rgb(255, 255, 255)'           # background color of sliders
+  continuous:                             # network color palettes for continuous variable
+    - "#BADEFA"
+    - "#90CAF8"
+    - "#64B4F6"
+    - "#41A5F4"
+    - "#2096F2"
+    - "#1E87E5"
+    - "#1976D2"
+    - "#1465BF" 
+    - "#0C46A0"
+  discrete:                               # discrete palette 
+    - "#E58606" 
+    - "#5D69B1" 
+    - "#52BCA3"
+    - "#99C945"
+    - "#CC61B0"
+    - "#24796C" 
+    - "#DAA51B"
+    - "#2F8AC4"
+    - "#764E9F"
+    - "#ED645A"
+    - "#CC3A8E"
+    - "#A5AA99"
+  background: 'rgba(0,0,0,0)'             # background of network graph
+  vr_background: '#052960'                # VR background color
+  edges_color: 'rgba(196, 196, 196, .6)'  # Color of edges
+  sentiment_palette:                      # Palette for sentiment edges
+    - "#EE6352"
+    - "#c4c4c4"
+    - "#59CD90"
+
+tracking:
+  ganalytics: "UA-74544116-1"
